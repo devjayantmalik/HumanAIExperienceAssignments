@@ -1,0 +1,1 @@
+- Run `streamlit run app.py` to start the app
