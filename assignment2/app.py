@@ -10,9 +10,9 @@ import shap
 # Load the trained models
 @st.cache_resource
 def load_models():
-    regression_model = joblib.load('./absenteeism_regression_model.pkl')
-    classification_model = joblib.load('./absenteeism_classification_model.pkl')
-    feature_columns = joblib.load('./feature_columns.pkl')
+    regression_model = joblib.load('./assignment2/absenteeism_regression_model.pkl')
+    classification_model = joblib.load('./assignment2/absenteeism_classification_model.pkl')
+    feature_columns = joblib.load('./assignment2/feature_columns.pkl')
     return regression_model, classification_model, feature_columns
 
 # Main function for the Streamlit app
